@@ -1,7 +1,7 @@
 class BottomsController < ApplicationController
 
     def index 
-        @bottoms = Bottom.All 
+        @bottoms = Bottom.all 
 
         render json: @bottoms
     end

@@ -1,7 +1,7 @@
 class SocksController < ApplicationController
 
     def index 
-        @socks = Sock.All 
+        @socks = Sock.all 
 
         render json: @socks
     end
